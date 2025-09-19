@@ -7,17 +7,28 @@ Ce projet analyse des ventes d'une pharmacie en utilisant **PySpark** pour le tr
 - Catégorie la plus demandée (antibiotiques, vitamines, etc.)
 - Revenu par jour
 - Figures :
-  - Histogramme : Top 5 médicaments vendus
-    ### Top 5 médicaments vendus
+  - Histogramme : Top 5 médicaments vendus  
+
+### Top 5 médicaments vendus
 ![Top 5 Médicaments](figures/top5_medicaments.png)
-  - Pie chart : Répartition des ventes par catégorie
+
+  - Pie chart : Répartition des ventes par catégorie  
 
 ### Répartition des ventes par catégorie
 ![Répartition par catégorie](figures/repartition_categories.png)
 
+  - Histogramme : Revenu par jour  
+
+### Revenu par jour
+![Revenu par jour](figures/revenu_par_jour.png)
+
+  - Stacked bar chart : Quantité vendue par catégorie chaque jour  
+
+### Quantité vendue par catégorie par jour
+![Quantité par catégorie par jour](figures/quantite_par_categorie_par_jour.png)
 
 ## 🚀 Lancer le projet
 1. Cloner le dépôt
-2. Installer les dépendances :
    ```bash
-   pip install pyspark pandas matplotlib
+   git clone https://github.com/aleeaouini/pharmacy-analysis.git
+   cd pharmacy-analysis
