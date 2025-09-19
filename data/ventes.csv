@@ -1,0 +1,10 @@
+date,medicament,categorie,quantite,prix,ordonnance
+2025-09-01,Paracétamol,Antidouleur,10,2,non
+2025-09-01,Amoxicilline,Antibiotique,5,8,oui
+2025-09-01,Vitamine C,Vitamine,8,3,non
+2025-09-02,Ibuprofène,Antidouleur,7,4,non
+2025-09-02,Paracétamol,Antidouleur,12,2,non
+2025-09-02,Oméprazole,Digestif,6,6,oui
+2025-09-03,Vitamine D,Vitamine,10,5,non
+2025-09-03,Amoxicilline,Antibiotique,4,8,oui
+2025-09-03,Paracétamol,Antidouleur,15,2,non
