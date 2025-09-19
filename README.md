@@ -1,47 +1,47 @@
-# 🏥 Analyse des ventes d'une pharmacie avec PySpark
+# 🏥 Pharmacy Sales Analysis with PySpark
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) ![PySpark](https://img.shields.io/badge/PySpark-3.5-orange?logo=apache-spark) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7-red?logo=matplotlib)
 
-Ce projet analyse les ventes d'une pharmacie en utilisant **PySpark** pour le traitement de données massives et **Matplotlib** pour la visualisation. Il fournit des insights utiles pour la gestion du stock et la planification des ventes.
+This project analyzes pharmacy sales using **PySpark** for big data processing and **Matplotlib** for visualization. It provides useful insights for stock management and sales planning.
 
 ---
 
-## 📊 Fonctionnalités
-- Analyse du **médicament le plus vendu**
-- Analyse de la **catégorie la plus demandée** (antibiotiques, vitamines, antidouleurs, etc.)
-- Calcul du **revenu par jour**
-- Visualisation graphique des ventes :
-  - **Histogramme** : Top 5 médicaments vendus  
-  - **Pie chart** : Répartition des ventes par catégorie  
-  - **Histogramme** : Revenu par jour  
-  - **Stacked bar chart** : Quantité vendue par catégorie chaque jour  
+## 📊 Features
+- Analysis of the **best-selling medication**
+- Analysis of the **most demanded category** (antibiotics, vitamins, painkillers, etc.)
+- Calculation of **daily revenue**
+- Graphical visualization of sales:
+  - **Histogram**: Top 5 sold medications  
+  - **Pie chart**: Sales distribution by category  
+  - **Histogram**: Daily revenue  
+  - **Stacked bar chart**: Quantity sold by category per day  
 
 ---
 
-### Top 5 médicaments vendus
-![Top 5 Médicaments](figures/top5_medicaments.png)
+### Top 5 Sold Medications
+![Top 5 Medications](figures/top5_medicaments.png)
 
-### Répartition des ventes par catégorie
-![Répartition par catégorie](figures/repartition_categories.png)
+### Sales Distribution by Category
+![Sales by Category](figures/repartition_categories.png)
 
-### Revenu par jour
-![Revenu par jour](figures/revenu_par_jour.png)
+### Daily Revenue
+![Daily Revenue](figures/revenu_par_jour.png)
 
-### Quantité vendue par catégorie par jour
-![Quantité par catégorie par jour](figures/quantite_par_categorie_par_jour.png)
-
----
-
-## 💡 Insights possibles
-- Identifier **les produits les plus rentables** pour optimiser les commandes.
-- Repérer **les jours avec le plus de ventes** afin d'ajuster le personnel.
-- Observer les **tendances saisonnières** des ventes par catégorie.
-- Aider à la **planification du stock** pour éviter les ruptures ou surplus.
+### Quantity Sold by Category per Day
+![Quantity by Category per Day](figures/quantite_par_categorie_par_jour.png)
 
 ---
 
-## 🚀 Lancer le projet
-1. Cloner le dépôt
+## 💡 Possible Insights
+- Identify **the most profitable products** to optimize orders.
+- Spot **the days with the highest sales** to adjust staffing.
+- Observe **seasonal trends** in category sales.
+- Assist with **stock planning** to prevent shortages or overstock.
+
+---
+
+## 🚀 Running the Project
+1. Clone the repository
    ```bash
    git clone https://github.com/aleeaouini/pharmacy-analysis.git
    cd pharmacy-analysis
